@@ -712,10 +712,16 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background: var(--accent-color);
 }
 .email-input-footer{
-    width: 570px;
-    margin-left: 93px;
+    margin-left: auto;
 }
 
+.label-footer{
+    display: flex; 
+    font-size: 12px;
+    line-height: 1.16;   
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
+}
 .field{
     margin-top: 20px;
     width: 358px;
